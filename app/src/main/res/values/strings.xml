@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Novedades Umbria</string>
+    <string name="action_settings">Configuración</string>
+    <string name="hello_world">Hello world!</string>
+    <!--  -->
+    <string name="error_notfoundexception_title">No puedo encontrar CU</string>
+    <string name="error_notfoundexception_body">Por favor, verifique que puede acceder a www.comunidadumbria.com con su navegador.</string>
+    <string name="error_ioexception_title">No puedo conectarme a CU</string>
+    <string name="error_ioexception_body">Hay problemas con su conexión a internet. Por favor, revise su conexión WiFi o de datos.</string>
+    <string name="error_cannot_connect_title">No puedo hacer login en CU</string>
+    <string name="error_cannot_connect_body">Por favor, revise sus datos de acceso y su conexión a internet.</string>
+    <string name="error_ilegal_state_title">Estado erróneo.</string>
+    <string name="error_ilegal_state_body">Por favor, informe al desarrollador de este error.</string>
+    <string name="error_encoding_title">Problema con la codificación.</string>
+    <string name="error_encoding_body">Por favor, informe al desarrollador de este error.</string>
+    <string name="error_wrong_response_title">La web no responde como esperamos. </string>
+    <string name="error_wrong_response_body">Por favor, informe al desarrollador de este error.</string>
+    <string name="error_no_login_data_title">No ha introducido sus datos.</string>
+    <string name="error_no_login_data_body">El notificador no funcionará hasta que introduzca su Usuario y Contraseña en la pantalla de configuración.</string>
+    <string name="error_wrong_login_data_title">Datos de login incorrectos.</string>
+    <string name="error_wrong_login_data_body">Por favor, verifique que ha introducido correctamente su nombre de usuario y su contraseña.</string>
+    <!--  -->
+    <string name="notification_news_title">Hay Novedades en CU</string>
+    <string name="notification_error_message_long">No pude conectar con Comunidad Umbría. Por favor, revisa tus datos de acceso y tu conexión</string>
+    <string name="notification_error_title_short">No pude conectar con CU.</string>
+    <string name="notification_error_message_short">Por favor, revisa tus datos de acceso y tu conexión.</string>
+    <string name="notification_news_action">Ir a Novedades</string>
+    <!--  -->
+    <string name="new_messages">Hay nuevos Mensajes en</string>
+    <string name="new_messages_storyteller">Narrador</string>
+    <string name="new_messages_player">Jugador</string>
+    <string name="new_messages_vip">VIP</string>
+    <string name="new_messages_private">Privados</string>
+    <!--  -->
+    <string name="widget_text_searching">Buscando novedades...</string>
+    <string name="widget_text_player">Hay mensajes nuevos en Jugador.\n</string>
+    <string name="widget_text_storyteller">Hay mensajes nuevos en Narrador.\n</string>
+    <string name="widget_text_vip">Hay mensajes nuevos en VIP.\n</string>
+    <string name="widget_text_private">Hay mensajes privados nuevos.\n</string>
+    <string name="widget_text_empty">No hay mensajes nuevos.\n</string>
+    <string name="widget_text_error">Se produjo algún error durante la comunicación con Comunidad Umbría\n Por favor, revise su conexión.</string>
+    <!--  -->
+
+    <!--  -->
+    <string name="widget_label">Novedades Umbría</string>
+    <string name="miniwidget_label">Novedades Umbría Mini</string>
+    <string name="boton_comprobar">Comprobar Novedades</string>
+    <string name="boton_navegar">Ir a Novedades</string>
+
+</resources>

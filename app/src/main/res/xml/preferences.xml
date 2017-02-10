@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Datos de Acceso">
+        <EditTextPreference
+            android:dialogTitle="Introduzca el nombre de usuario"
+            android:key="edittext_usuario"
+            android:summary="Nombre de usuario"
+            android:title="Nombre de Usuario" />
+        <EditTextPreference
+            android:dialogTitle="Introduzca la contraseña"
+            android:key="edittext_password"
+            android:summary="Contraseña"
+            android:title="Contraseña" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Frecuencia de Comprobación">
+        <ListPreference
+            android:entries="@array/frecuencias"
+            android:entryValues="@array/frecuencias_v"
+            android:key="lpFrecuencia"
+            android:summary="Elije cada cuántos minutos quieres que compruebe si hay Novedades (a mas corto, mas batería gasta)\n Valor por defecto: cada hora"
+            android:title="Frecuencia de Comprobación" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notificaciones">
+        <CheckBoxPreference
+            android:key="cb_notificacion"
+            android:summary="Recibir notificación cuando haya novedades"
+            android:title="Recibir Notificación" />
+        <CheckBoxPreference
+            android:dependency="cb_notificacion"
+            android:key="cb_notificacion_vibrante"
+            android:summary="Vibrar cuando se reciba una notificación"
+            android:title="Notificación con Vibración" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Preferencias de Aviso">
+        <CheckBoxPreference
+            android:key="cb_msg_Jugador"
+            android:summary="Recibir aviso cuando haya nuevos mensajes en partidas en las que seas jugador"
+            android:title="Mensajes como Jugador" />
+        <CheckBoxPreference
+            android:key="cb_msg_Narrador"
+            android:summary="Recibir aviso cuando haya nuevos mensajes en partidas en las que seas narrador"
+            android:title="Mensajes como Narrador" />
+        <CheckBoxPreference
+            android:key="cb_msg_VIP"
+            android:summary="Recibir aviso cuando haya nuevos mensajes en partidas en las que tengas permisos de VIP"
+            android:title="Mensajes como VIP" />
+        <CheckBoxPreference
+            android:key="cb_msg_Privado"
+            android:summary="Recibir aviso cuando reciba nuevos mensajes privados"
+            android:title="Mensajes Privados Recibidos" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
